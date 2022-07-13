@@ -3,9 +3,9 @@
  * @return {number[]}
  */
  var runningSum = function(nums) {
-    sum = 0;
+    sum = nums[0];
     ans = [];
-    for(var i = 0; i< nums.length; i++){
+    for(var i = 1; i< nums.length; i++){
         sum += nums[i];
         ans.push(sum);
         // nums[i] += nums[i -1];
