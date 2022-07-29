@@ -22,4 +22,4 @@ var findAndReplacePattern = function (words, pattern) {
         cipher[i] = translate(pattern.charAt(i))
     words.forEach(compare)
     return ans
-};
+}
