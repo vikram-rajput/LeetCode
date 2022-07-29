@@ -3,7 +3,7 @@
  * @param {string} pattern
  * @return {string[]}
  */
- var findAndReplacePattern = function(words, pattern) {
+var findAndReplacePattern = function (words, pattern) {
     let ans = [], codex = new Map()
     const translate = char => {
         if (!codex.has(char))
