@@ -5,20 +5,16 @@
  */
  var kidsWithCandies = function(candies, extraCandies) {
     let max = 0;
-    for(let i = 0; i< candies.length; i++)
-        {
+    for(let i = 0; i< candies.length; i++) {
             max = candies[i] > max ? candies[i] : max;
         }
     let result = [];
-    for(let i = 0; i< candies.length; i++)
-        {
-            if(candies[i] + extraCandies >= max)
-                {
+    for(let i = 0; i< candies.length; i++) {
+            if(candies[i] + extraCandies >= max) {
                     result[i] = true;
-                }
-            else{
+                } else{
                 result[i] = false;
             }
         }
     return result;
-};
+}
