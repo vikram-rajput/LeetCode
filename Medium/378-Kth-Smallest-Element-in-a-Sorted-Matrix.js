@@ -20,4 +20,4 @@ var kthSmallest = function (matrix, k) {
         if (lessOrEqualM < k) left = m + 1;
     }
     return left;
-};
+}
