@@ -16,4 +16,4 @@ var combinationSum4 = function (nums, target) {
         return memo[target] = res;
     }
     return helper(target);
-};
+}
