@@ -28,4 +28,4 @@ var sortedArrayToBST = function (nums) {
     root.right = sortedArrayToBST(rightSubtree);
 
     return root;
-};
+}
