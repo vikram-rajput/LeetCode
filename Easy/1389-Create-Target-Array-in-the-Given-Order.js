@@ -3,8 +3,8 @@
  * @param {number[]} index
  * @return {number[]}
  */
- var createTargetArray = function(nums, index) {
-    const N = nums.length
+var createTargetArray = function (nums, index) {
+  const N = nums.length
   let res = Array(N).fill(null)
   for (let i = 0; i < N; i++) {
     if (res[index[i]] == null) {
