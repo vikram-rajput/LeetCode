@@ -14,4 +14,4 @@ var createTargetArray = function (nums, index) {
     }
   }
   return res.filter(x => x !== null)
-};
+}
