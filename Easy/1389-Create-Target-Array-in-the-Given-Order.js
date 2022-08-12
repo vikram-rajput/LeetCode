@@ -13,5 +13,5 @@ var createTargetArray = function (nums, index) {
       res = [res.slice(0, index[i]), nums[i], res.slice(index[i])].flat()
     }
   }
-  return res.filter(x => x !== null)
+  return res.filter(x => x !== null);
 }
