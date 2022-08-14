@@ -46,4 +46,4 @@ var findLadders = function (beginWord, endWord, wordList) {
       }
     }
   }
-};
+}
