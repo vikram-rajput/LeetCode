@@ -9,7 +9,7 @@
  * @param {ListNode} head
  * @return {boolean}
  */
- var isPalindrome = function(head) {
+var isPalindrome = function (head) {
     function isPalindromRecursive(recursiveHead) {
         // Reached the end of the list
         if (recursiveHead == null) {
@@ -26,5 +26,5 @@
         head = head.next;
         return next && valid;
     }
-    return isPalindromRecursive(head); 
+    return isPalindromRecursive(head);
 };
