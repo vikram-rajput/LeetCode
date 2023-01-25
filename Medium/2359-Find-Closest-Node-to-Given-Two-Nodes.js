@@ -4,6 +4,8 @@
  * @param {number} node2
  * @return {number}
  */
+
+
 var closestMeetingNode = function (edges, node1, node2) {
     let n = edges.length;
     let dist1 = getDist(node1);
